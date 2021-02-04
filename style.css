@@ -1,0 +1,185 @@
+h1, h2, h3 {
+  font-weight: bolder;
+
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+/* nav bar */
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Ubuntu";
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* title section */
+#title {
+  /*background-color: gray;*/
+  background: #ff6e7f;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4682B4, #ff6e7f);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4682B4, #ff6e7f);
+
+  color: #fff;
+}
+
+
+.big-heading {
+  font-size: 2rem;
+  line-height: 1.5;
+
+}
+
+.title-image {
+  position: absolute;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 100%;
+}
+
+/* features */
+#features {
+  padding: 7% 15%;
+  background-color: #fffed5; 
+  z-index: 1;
+  position: relative;
+}
+
+.feature-title{
+  font-size: 1.3rem;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  margin-bottom: 1rem;
+}
+
+
+ #icon1 {
+  color: #ADFF2F;
+}
+#icon1:hover {
+  color: #00c40d;
+} 
+#icon2 {
+  color: #87CEFA;
+}
+#icon2:hover {
+  color: blue;
+} 
+#icon3 {
+  color: pink;
+}
+#icon3:hover {
+  color: red;
+} 
+
+
+p {
+  color: #8f8f8f;
+}
+
+/* testimonials */
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* call to action*/
+#cta {
+  background-color: grey;
+  color: #fff;
+  text-align: center;
+  padding: 7% 15% 7%;
+}
+
+/* footer */
+#footer {
+  text-align: center;
+  padding: 5% 5%;
+  /*background-color: #ffd1e1;*/
+  background: #ff6e7f;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f7bfbe, #E6E6FA);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ff6e7f, #E6E6FA);
+}
+
+.social-logo {
+  margin: 50px 30px;
+  font-size: 2rem;
+}
+
+.logo1 {
+  color: #4f42ff;
+}
+.logo2 {
+  color: #e6007b;
+}
+
+.logo3 {
+  color: #00a8fa;
+}
+
+.logo4 {
+   color: #ff293c;
+}
+
+.social-logo:hover {
+  color: purple;
+}
+
+.p1 {
+  color: #fff;
+}
+.p2 {
+  color: #fff;
+}
+
+/* responsive */
+@media (max-width:990px) {
+  .title-image {
+    position: static;
+
+  }
+
+  .title {
+    text-align: center;
+  }
+}
