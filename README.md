@@ -12,4 +12,3 @@ A payment integrated donation website.
  
  # Check it out here-
    https://soumita1234.github.io/HelpingHand/
-
