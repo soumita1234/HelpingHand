@@ -27,7 +27,7 @@ You can end childhood hunger, even a small donation from you can make a big chan
 
 
  ## Text Editor-
-    Sublime Text <3</br>
+    Sublime Text 
 
 
 ## Link to the website
