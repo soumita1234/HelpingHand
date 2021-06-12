@@ -71,10 +71,7 @@ https://soumita1234.github.io/HelpingHand/
 If you think that you can add a new feature or want to fix a bug. We invite you to contribute to Helping Hand and make this project better.
 To start contributing, follow the below guidelines: 
  
-Take a look at the existing [issues](https://github.com/soumita1234/HelpingHand/issues) or create your own issues. 
-Wait for the Issue to be assigned to you after which you can start working on it.
 
- Fork [this](https://github.com/soumita1234/HelpingHand.git) repository.
  
  Open git bash and type the command.
 ```
