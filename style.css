@@ -59,6 +59,23 @@ body {
   width: 100%;
 }
 
+#rzp-button1{
+  background-color: #e91e63;
+  color: #ffffff;
+  border: 2px solid transparent;
+  font-family: 'Poppins', sans-serif;
+  font-size: 10px;
+  cursor: pointer;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 4px;
+  line-height: 30px;
+}
+#rzp-button1:hover{
+  background-color: #b60c45;
+}
+
 /* features */
 #features {
   padding: 7% 15%;
