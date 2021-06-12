@@ -56,41 +56,41 @@
           <div>
           	<p>
             <form>            
-			 <button id="rzp-button1">Donate here</button>
-			 <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
-			 <script>
-				var options = {    
-				"key": "rzp_test_aIfnpuWEudWnID", // Enter the Key ID generated from the Dashboard    
-				"amount": "5000", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise    
-				"currency": "INR",    
-				"name": "Soumita Biswas",    
-				"description": "Please lend a Helping hand",    
-				"handler": function (response){        
-					if (typeof response.razorpay_payment_id == 'undefined' ||  response.razorpay_payment_id < 1) {
-						  swal({
-						  title: "Please try again later!",
-						  icon: "error",
-						  button: "Close",
-						});  
-					} 
-					else {
-						  swal({
-						  title: "Thank You!",
-						  icon: "success",
-						  button: "Close",
-						});
-					}  
-				},    
-				"theme": {        
-				"color": "#3399cc"    
-					}
-				};
-				var rzp1 = new Razorpay(options);
-				document.getElementById('rzp-button1').onclick = function(e){    
-				rzp1.open();    
-				e.preventDefault();
-				}
-			</script>                       
+             <button id="rzp-button1">Donate here</button>
+             <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+             <script>
+              var options = {    
+              "key": "rzp_test_aIfnpuWEudWnID", // Enter the Key ID generated from the Dashboard    
+              "amount": "5000", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise    
+              "currency": "INR",    
+              "name": "Soumita Biswas",    
+              "description": "Please lend a Helping hand",    
+              "handler": function (response){        
+                if (typeof response.razorpay_payment_id == 'undefined' ||  response.razorpay_payment_id < 1) {
+                    swal({
+                    title: "Please try again later!",
+                    icon: "error",
+                    button: "Close",
+                  });  
+                } 
+                else {
+                    swal({
+                    title: "Thank You!",
+                    icon: "success",
+                    button: "Close",
+                  });
+                }  
+              },    
+              "theme": {        
+              "color": "#3399cc"    
+                }
+              };
+              var rzp1 = new Razorpay(options);
+              document.getElementById('rzp-button1').onclick = function(e){    
+              rzp1.open();    
+              e.preventDefault();
+              }
+            </script>                       
             </form>			
             </p>
           </div>
