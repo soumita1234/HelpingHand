@@ -1,6 +1,5 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,13 +15,51 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  
   <!--internal CSS-->
   <link rel="stylesheet" href="style.css">
 
-
+   
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   <style>
+		#button {
+		  display: inline-block;
+		  background-color: #877ba1;
+		  width: 50px;
+		  height: 50px;
+		  text-align: center;
+		  border-radius: 4px;
+		  position: fixed;
+		  bottom: 30px;
+		  right: 30px;
+		  transition: background-color .3s, 
+			opacity .5s, visibility .5s;
+		  opacity: 0;
+		  visibility: hidden;
+		  z-index: 1000;
+		}
+		#button::after {
+		  content: "\f077";
+		  font-family: FontAwesome;
+		  font-weight: normal;
+		  font-style: normal;
+		  font-size: 2em;
+		  line-height: 50px;
+		  color: #fff;
+		}
+		#button:hover {
+		  cursor: pointer;
+		  background-color: #333;
+		}
+		#button:active {
+		  background-color: #555;
+		}
+		#button.show {
+		  opacity: 1;
+		  visibility: visible;
+		}  
         #rzp-button1{
             background-color: #e91e63;
 	        color: #ffffff;
@@ -34,16 +71,14 @@
         	text-align: center;
         	border-radius: 4px;
         	line-height: 30px;
-        }
+        }	
   </style>
-
-  <!--font awesome-->
-  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-
 </head>
 
 <body>
+	<!-- Back to top button -->
+	<a title="scroll to top" id="button"></a>
+
   <section class="coloured-section" id="title">
     <div class="container-fluid">
       <!-- Nav Bar -->
@@ -75,17 +110,16 @@
           <div>
           	<p>
             <form>            
-
 			 <button id="rzp-button1"><i class="fas fa-donate"></i>&nbsp;&nbsp;Donate here</button>
 			 <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
 			 <script>
-				var options = {    
-				"key": "rzp_test_aIfnpuWEudWnID", // Enter the Key ID generated from the Dashboard    
-				"amount": "5000", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise    
+				var options = {    
+				"key": "rzp_test_aIfnpuWEudWnID", // Enter the Key ID generated from the Dashboard    
+				"amount": "5000", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise    
 				"currency": "INR",    
-				"name": "Soumita Biswas",    
-				"description": "Please lend a Helping hand",    
-				"handler": function (response){        
+				"name": "Soumita Biswas",    
+				"description": "Please lend a Helping hand",    
+				"handler": function (response){        
 					if (typeof response.razorpay_payment_id == 'undefined' ||  response.razorpay_payment_id < 1) {
 						  swal({
 						  title: "Please try again later!",
@@ -99,10 +133,10 @@
 						  icon: "success",
 						  button: "Close",
 						});
-					}  
-				},    
-				"theme": {        
-				"color": "#3399cc"    
+					}  
+				},    
+				"theme": {        
+				"color": "#3399cc"    
 					}
 				};
 				var rzp1 = new Razorpay(options);
@@ -111,43 +145,6 @@
 				e.preventDefault();
 				}
 			</script>                       
-
-             <button id="rzp-button1">Donate here</button>
-             <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
-             <script>
-              var options = {    
-              "key": "rzp_test_aIfnpuWEudWnID", // Enter the Key ID generated from the Dashboard    
-              "amount": "5000", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise    
-              "currency": "INR",    
-              "name": "Soumita Biswas",    
-              "description": "Please lend a Helping hand",    
-              "handler": function (response){        
-                if (typeof response.razorpay_payment_id == 'undefined' ||  response.razorpay_payment_id < 1) {
-                    swal({
-                    title: "Please try again later!",
-                    icon: "error",
-                    button: "Close",
-                  });  
-                } 
-                else {
-                    swal({
-                    title: "Thank You!",
-                    icon: "success",
-                    button: "Close",
-                  });
-                }  
-              },    
-              "theme": {        
-              "color": "#3399cc"    
-                }
-              };
-              var rzp1 = new Razorpay(options);
-              document.getElementById('rzp-button1').onclick = function(e){    
-              rzp1.open();    
-              e.preventDefault();
-              }
-            </script>                       
-
             </form>			
             </p>
           </div>
@@ -203,5 +200,22 @@
     </div>
   </footer>
 
+
 </body>
+<script>
+var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+</script>
 </html>
