@@ -9,7 +9,8 @@
 
   <!-- google fonts -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
-
+  <!-- Font awesoe cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!--bootstrap-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -19,9 +20,27 @@
   <!--internal CSS-->
   <link rel="stylesheet" href="style.css">
 
+
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <style>
+        #rzp-button1{
+            background-color: #e91e63;
+	        color: #ffffff;
+	        border: 2px solid transparent;
+	        font-family: 'Poppins', sans-serif;
+        	font-size: 10px;
+        	font-weight: 400;
+        	text-transform: uppercase;
+        	text-align: center;
+        	border-radius: 4px;
+        	line-height: 30px;
+        }
+  </style>
+
   <!--font awesome-->
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
 </head>
 
 <body>
@@ -36,13 +55,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav  ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#title">Home</a>
+              <a class="nav-link" href="#title"><i class="fas fa-home"></i>&nbsp;Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#features">Mission</a>
+              <a class="nav-link" href="#features"><i class="fas fa-bullseye"></i>&nbsp;Mission</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#footer">Contact</a>
+              <a class="nav-link" href="#footer"><i class="fas fa-envelope"></i>&nbsp;Contact</a>
             </li>
           </ul>
         </div>
@@ -56,6 +75,43 @@
           <div>
           	<p>
             <form>            
+
+			 <button id="rzp-button1"><i class="fas fa-donate"></i>&nbsp;&nbsp;Donate here</button>
+			 <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+			 <script>
+				var options = {    
+				"key": "rzp_test_aIfnpuWEudWnID", // Enter the Key ID generated from the Dashboard    
+				"amount": "5000", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise    
+				"currency": "INR",    
+				"name": "Soumita Biswas",    
+				"description": "Please lend a Helping hand",    
+				"handler": function (response){        
+					if (typeof response.razorpay_payment_id == 'undefined' ||  response.razorpay_payment_id < 1) {
+						  swal({
+						  title: "Please try again later!",
+						  icon: "error",
+						  button: "Close",
+						});  
+					} 
+					else {
+						  swal({
+						  title: "Thank You!",
+						  icon: "success",
+						  button: "Close",
+						});
+					}  
+				},    
+				"theme": {        
+				"color": "#3399cc"    
+					}
+				};
+				var rzp1 = new Razorpay(options);
+				document.getElementById('rzp-button1').onclick = function(e){    
+				rzp1.open();    
+				e.preventDefault();
+				}
+			</script>                       
+
              <button id="rzp-button1">Donate here</button>
              <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
              <script>
@@ -91,6 +147,7 @@
               e.preventDefault();
               }
             </script>                       
+
             </form>			
             </p>
           </div>

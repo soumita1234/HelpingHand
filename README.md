@@ -5,6 +5,8 @@ A payment integrated donation website.
  
  CSS
  
+ JS
+ 
  # Payment way Integrated-
    Razorpay
  # Text Editor-
