@@ -8,7 +8,8 @@
 
   <!-- google fonts -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
-
+  <!-- Font awesoe cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!--bootstrap-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -17,12 +18,7 @@
 
   <!--internal CSS-->
   <link rel="stylesheet" href="style.css">
-  
-  <!--font awesome-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  
-  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   <style>
 		#button {
@@ -91,13 +87,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav  ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#title">Home</a>
+              <a class="nav-link" href="#title"><i class="fas fa-home"></i>&nbsp;Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#features">Mission</a>
+              <a class="nav-link" href="#features"><i class="fas fa-bullseye"></i>&nbsp;Mission</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#footer">Contact</a>
+              <a class="nav-link" href="#footer"><i class="fas fa-envelope"></i>&nbsp;Contact</a>
             </li>
           </ul>
         </div>
@@ -111,7 +107,7 @@
           <div>
           	<p>
             <form>            
-			 <button id="rzp-button1">Donate here</button>
+			 <button id="rzp-button1"><i class="fas fa-donate"></i>&nbsp;&nbsp;Donate here</button>
 			 <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
 			 <script>
 				var options = {    
