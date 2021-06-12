@@ -10,7 +10,7 @@ A payment integrated donation website.
  # Payment way Integrated-
    Razorpay
  # Text Editor-
-   Sublime Text <3
+   Sublime Text 
  
  # Check it out here-
    https://soumita1234.github.io/HelpingHand/
