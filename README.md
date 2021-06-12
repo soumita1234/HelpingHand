@@ -4,6 +4,9 @@ A payment integrated donation website through which one can donate with just a c
 
 [Launch HelpingHand](https://soumita1234.github.io/HelpingHand/) 🙌
 
+![Helping Hand - Google Chrome 12-06-2021 21_21_37 (2)](https://user-images.githubusercontent.com/65807708/121782150-cd66e300-cbc5-11eb-8690-833f98042af5.png)
+
+
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/soumita1234/HelpingHand)&nbsp;
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=flat&logo=github)](https://github.com/soumita1234/HelpingHand)&nbsp;
 ![contributions welcome](https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=brightgreen&style=flat&logo=github)&nbsp;
