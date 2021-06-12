@@ -7,7 +7,7 @@ A payment integrated donation website.
  
  JS
  
- # Payment way Integrated-
+ # Payment gateway Integrated-
    Razorpay
  # Text Editor-
    Sublime Text 
