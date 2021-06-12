@@ -38,7 +38,7 @@ cd HelpingHand
 ```
 **4.** Add a reference(remote) to the original repository.
 ```
-git remote add upstream https://github.com/manankohlii/HelpingHand.git
+git remote add upstream https://github.com/soumita1234/HelpingHand.git
 ```
 **5.** Check the remotes for this repository.
 ```
