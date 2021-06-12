@@ -83,6 +83,7 @@ git push -u origin <your_branch_name>
    <td align="center"><a href="https://github.com/jigar-sable"><img src="https://avatars.githubusercontent.com/u/64949957?v=4" height="120px" width="120px"/><br/><sub><b>Jigar Sable</b></sub></a></td>
    <td align="center"><a href="https://github.com/ekagrashukla"><img src="https://avatars.githubusercontent.com/u/67453083?v=4" height="120px" width="120px"/><br/><sub><b>Ekagra Shukla</b></sub></a></td>
    <td align="center"><a href="https://github.com/sanketcharanpahadi"><img src="https://avatars.githubusercontent.com/u/39946214?v=4" height="120px" width="120px"/><br/><sub><b>Sanket Kumar</b></sub></a></td>
+    <td align="center"><a href="https://github.com/sanketcharanpahadi"><img src="https://avatars.githubusercontent.com/u/39946214?v=4" height="120px" width="120px"/><br/><sub><b>Sanket Kumar</b></sub></a></td>
    
 <!--    Uncomment the below code and add as per your profile to add section of contributors in readme -->
 <!--    <td align="center"><a href="https://github.com/sanketcharanpahadi"><img src="https://avatars.githubusercontent.com/u/39946214?v=4" height="120px" width="120px"/><br/><sub><b>Sanket Kumar</b></sub></a></td> -->
@@ -90,10 +91,10 @@ git push -u origin <your_branch_name>
   </tr>
 </table>
 
-## Project Admin👨‍
+## Project Admi👩
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/soumita1234"><img src="https://avatars.githubusercontent.com/u/58908901?v=4" height="120px" width="120px"/><br/><sub><b>Soumita Biswas👨‍</b></sub></a></td>
+    <td align="center"><a href="https://github.com/soumita1234"><img src="https://avatars.githubusercontent.com/u/58908901?v=4" height="120px" width="120px"/><br/><sub><b>Soumita Biswa👩</b></sub></a></td>
   </tr>
 </table>
 
