@@ -18,11 +18,11 @@ A payment integrated donation website through which one can donate with just a c
 [![GitHub closed-issues](https://img.shields.io/github/issues-closed-raw/soumita1234/HelpingHand)](https://github.com/soumita1234/HelpingHand/pulls)
 [![GitHub closed-prs](https://img.shields.io/github/issues-pr-closed-raw/soumita1234/HelpingHand)](https://github.com/soumita1234/HelpingHand/pulls)
 
-## �Tech Stack
+## 💻Tech Stack
 [![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)](https://github.com/soumita1234/HelpingHand/search?l=html)&nbsp;
 [![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)](https://github.com/soumita1234/HelpingHand/search?l=css)&nbsp;
 [![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://github.com/soumita1234/HelpingHand/search?l=javascript)
-#### Payment Gateway Integrated : [Razorpay](https://razorpay.com/)
+#### 💰Payment Gateway Integrated : [Razorpay](https://razorpay.com/)
 
 ## 📌Contributing Guidelines :
 
@@ -75,6 +75,15 @@ git push -u origin <your_branch_name>
 
 **15.** Hurray ❗ You have created a PR to the Helping Hand 💥 . Sit back patiently and relax till then the project maintainers will review your PR. Please understand, there will be some time taken to review a PR and can vary from a few hours to a few days too so be Patient and keep contributing.
 
+
+
+## Project Admin👩
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/soumita1234"><img src="https://avatars.githubusercontent.com/u/58908901?v=4" height="120px" width="120px"/><br/><sub><b>Soumita Biswa👩</b></sub></a></td>
+  </tr>
+</table>
+
 ## ✨Our valuable Contributors :
 <table>
   <tr>
@@ -83,19 +92,11 @@ git push -u origin <your_branch_name>
    <td align="center"><a href="https://github.com/jigar-sable"><img src="https://avatars.githubusercontent.com/u/64949957?v=4" height="120px" width="120px"/><br/><sub><b>Jigar Sable</b></sub></a></td>
    <td align="center"><a href="https://github.com/ekagrashukla"><img src="https://avatars.githubusercontent.com/u/67453083?v=4" height="120px" width="120px"/><br/><sub><b>Ekagra Shukla</b></sub></a></td>
    <td align="center"><a href="https://github.com/sanketcharanpahadi"><img src="https://avatars.githubusercontent.com/u/39946214?v=4" height="120px" width="120px"/><br/><sub><b>Sanket Kumar</b></sub></a></td>
-   
-<!--    Uncomment the below code and add as per your profile to add section of contributors in readme -->
-<!--    <td align="center"><a href="https://github.com/sanketcharanpahadi"><img src="https://avatars.githubusercontent.com/u/39946214?v=4" height="120px" width="120px"/><br/><sub><b>Sanket Kumar</b></sub></a></td> -->
-   
-  </tr>
+    <td align="center"><a href="https://github.com/LizaHaddock"><img src="https://avatars.githubusercontent.com/u/39946214?v=4" height="120px" width="120px"/><br/><sub><b>Liza Deka</b></sub></a></td>
+   </tr>
 </table>
 
-## Project Admin👨‍
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/soumita1234"><img src="https://avatars.githubusercontent.com/u/58908901?v=4" height="120px" width="120px"/><br/><sub><b>Soumita Biswas👨‍</b></sub></a></td>
-  </tr>
-</table>
+
 
 ## 📝 License
 This project follows the [MIT License](https://github.com/soumita1234/HelpingHand/blob/main/LICENSE)
