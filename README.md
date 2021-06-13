@@ -75,6 +75,8 @@ git push -u origin <your_branch_name>
 
 **15.** Hurray ❗ You have created a PR to the Helping Hand 💥 . Sit back patiently and relax till then the project maintainers will review your PR. Please understand, there will be some time taken to review a PR and can vary from a few hours to a few days too so be Patient and keep contributing.
 
+## 📝 License
+This project follows the [MIT License](https://github.com/soumita1234/HelpingHand/blob/main/LICENSE)
 
 
 ## Project Admin👩
@@ -85,21 +87,20 @@ git push -u origin <your_branch_name>
 </table>
 
 ## ✨Our valuable Contributors :
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/soumita1234"><img src="https://avatars.githubusercontent.com/u/58908901?v=4" height="120px" width="120px"/><br/><sub><b>Soumita Biswas</b></sub></a></td>
-   <td align="center"><a href="https://github.com/Zhong-Shan-Hui"><img src="https://avatars.githubusercontent.com/u/71785870?v=4" height="120px" width="120px"/><br/><sub><b>Zhong Shan Hui</b></sub></a></td>
-   <td align="center"><a href="https://github.com/jigar-sable"><img src="https://avatars.githubusercontent.com/u/64949957?v=4" height="120px" width="120px"/><br/><sub><b>Jigar Sable</b></sub></a></td>
-   <td align="center"><a href="https://github.com/ekagrashukla"><img src="https://avatars.githubusercontent.com/u/67453083?v=4" height="120px" width="120px"/><br/><sub><b>Ekagra Shukla</b></sub></a></td>
-   <td align="center"><a href="https://github.com/sanketcharanpahadi"><img src="https://avatars.githubusercontent.com/u/39946214?v=4" height="120px" width="120px"/><br/><sub><b>Sanket Kumar</b></sub></a></td>
-    <td align="center"><a href="https://github.com/LizaHaddock"><img src="https://avatars.githubusercontent.com/u/39946214?v=4" height="120px" width="120px"/><br/><sub><b>Liza Deka</b></sub></a></td>
-   </tr>
+
+
+<table >
+	<tr>
+		<td >
+			<a href="https://github.com/soumita1234/HelpingHand/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=soumita1234/HelpingHand" />
+</a>
+		</td>
+	</tr>
 </table>
 
 
 
-## 📝 License
-This project follows the [MIT License](https://github.com/soumita1234/HelpingHand/blob/main/LICENSE)
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) 
