@@ -1,6 +1,7 @@
-# Helping Hand
 
-A payment integrated donation website through which one can donate with just a click of button.
+<h1 align="center"> HelpingHand </h1>
+
+<h4 aligh="center"> A payment integrated donation website through which one can donate, just by a click. </h4>
 
 [Launch HelpingHand](https://soumita1234.github.io/HelpingHand/) 🙌
 
