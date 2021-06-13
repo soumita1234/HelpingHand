@@ -24,6 +24,11 @@ body {
 
 .nav-link {
   font-size: 1.2rem;
+  text-align: center;
+}
+a.nav-link:hover{
+  background-color: #333;
+  border-radius: 40px;
 }
 
 /* title section */
