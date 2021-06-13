@@ -94,6 +94,7 @@ git push -u origin <your_branch_name>
    <td align="center"><a href="https://github.com/sanketcharanpahadi"><img src="https://avatars.githubusercontent.com/u/39946214?v=4" height="120px" width="120px"/><br/><sub><b>Sanket Kumar</b></sub></a></td>
     <td align="center"><a href="https://github.com/LizaHaddock"><img src="https://avatars.githubusercontent.com/u/56999749?v=4" height="120px" width="120px"/><br/><sub><b>Liza Deka</b></sub></a></td>
     <td align="center"><a href="https://github.com/Atif0604"><img src="https://avatars.githubusercontent.com/u/64218887?v=4" height="120px" width="120px"/><br/><sub><b>Md Afif</b></sub></a></td>
+    <td align="center"><a href="https://github.com/RiyaGupta89"><img src="https://avatars.githubusercontent.com/u/72425181?v=4" height="120px" width="120px"/><br/><sub><b>Riya Gupta</b></sub></a></td>
     
     
    </tr>
