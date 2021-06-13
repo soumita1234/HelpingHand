@@ -12,23 +12,44 @@ body {
   font-size: 2.5rem;
   font-weight: bold;
   font-family: "Ubuntu";
+  margin-left: 6rem;
+  color: rgb(255, 255, 255);
 }
-
+.navbar-brand:hover{
+  transform: scale(1.04);
+  color: #a00505;
+  transition: 0.8s;
+}
 .navbar {
-  padding: 0 0 4.5rem;
+  padding: 0 0 0.3rem;
+  right: 0; left: 0; top: 0;
+  background: #ff6e7f;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4682B4, #ff6e7f);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4682B4, #ff6e7f);
+  position: fixed;
+  z-index: 10;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
 }
-
+.navbar-nav{
+  margin-right: 5rem;
+}
 .nav-item {
-  padding: 0 18px;
+  padding: 0 1.5rem;
 }
-
+.nav-item:hover{
+  transform: scale(1.1);
+  transition: 0.2s;
+}
 .nav-link {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
   text-align: center;
 }
 a.nav-link:hover{
-  background-color: #333;
-  border-radius: 40px;
+  background: rgb(236, 213, 0);
+  border-radius: 2rem;
 }
 
 /* title section */
@@ -37,15 +58,13 @@ a.nav-link:hover{
   background: #ff6e7f;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #4682B4, #ff6e7f);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #4682B4, #ff6e7f);
-
   color: #fff;
+  margin-top: 4rem;
 }
-
 
 .big-heading {
   font-size: 2rem;
   line-height: 1.5;
-
 }
 
 .title-image {
@@ -53,7 +72,7 @@ a.nav-link:hover{
 }
 
 .container-fluid {
-  padding: 3% 15% 7%;
+  padding: 8% 15% 7%;
 }
 
 .download-button {
@@ -198,7 +217,6 @@ p {
 @media (max-width:990px) {
   .title-image {
     position: static;
-
   }
 
   .title {
