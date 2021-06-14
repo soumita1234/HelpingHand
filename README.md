@@ -93,8 +93,8 @@ This project follows the [MIT License](https://github.com/soumita1234/HelpingHan
 <table >
 	<tr>
 		<td >
-			<a href="https://github.com/soumita1234/HelpingHand/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=soumita1234/HelpingHand" />
+			<a href="https://github.com/ayushsoni1010/HelpingHand/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ayushsoni1010/HelpingHand" />
 </a>
 		</td>
 	</tr>
