@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Helping Hand</title>
   <link rel="icon" href="images/hand.png">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <!-- google fonts -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
@@ -16,12 +16,53 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
   <!--internal CSS-->
   <link rel="stylesheet" href="style.css">
 
+   
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   <style>
+    html{
+      scroll-behavior: smooth;
+    }
+		#button {
+		  display: inline-block;
+		  background-color: #877ba1;
+		  width: 50px;
+		  height: 50px;
+		  text-align: center;
+		  border-radius: 4px;
+		  position: fixed;
+		  bottom: 30px;
+		  right: 30px;
+		  transition: background-color .3s, 
+			opacity .5s, visibility .5s;
+		  opacity: 0;
+		  visibility: hidden;
+		  z-index: 1000;
+		}
+		#button::after {
+		  content: "\f077";
+		  font-family: FontAwesome;
+		  font-weight: normal;
+		  font-style: normal;
+		  font-size: 2em;
+		  line-height: 50px;
+		  color: #fff;
+		}
+		#button:hover {
+		  cursor: pointer;
+		  background-color: #333;
+		}
+		#button:active {
+		  background-color: #555;
+		}
+		#button.show {
+		  opacity: 1;
+		  visibility: visible;
+		}  
         #rzp-button1{
             background-color: #e91e63;
 	        color: #ffffff;
@@ -33,35 +74,40 @@
         	text-align: center;
         	border-radius: 4px;
         	line-height: 30px;
-        }
+        }	
   </style>
 </head>
 
 <body>
+	<!-- Back to top button -->
+	<a title="scroll to top" id="button"></a>
+
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="#">Helping Hand</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon">   
+        <i class="fas fa-bars" style="color:rgb(11, 14, 197); font-size:28px;"></i>
+    </span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav  ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#title"><i class="fas fa-home"></i>&nbsp;Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#features"><i class="fas fa-bullseye"></i>&nbsp;Mission</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#footer"><i class="fas fa-envelope"></i>&nbsp;Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+ 
+
   <section class="coloured-section" id="title">
     <div class="container-fluid">
-      <!-- Nav Bar -->
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="#">Helping Hand</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav  ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#title"><i class="fas fa-home"></i>&nbsp;Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#features"><i class="fas fa-bullseye"></i>&nbsp;Mission</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#footer"><i class="fas fa-envelope"></i>&nbsp;Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
-
       <!-- Title -->
       <div class="row">
         <div class="col-lg-6">
@@ -111,7 +157,7 @@
 
 
         <div class="col-lg-6">
-          <img class="title-image" src="images/child.jpg" alt="child-image">
+          <img class="title-image" src="images/child-color.jpg" alt="child-image">
         </div>
       </div>
     </div>
@@ -120,9 +166,7 @@
 
   <!-- Features -->
 
-
 <section id="features">
-
   <div class="flip-card">
     <div class="flip-card-inner">
       <div class="flip-card-front">
@@ -158,6 +202,7 @@
   </div>
 
 
+
   <div class="flip-card">
     <div class="flip-card-inner">
         <div class="flip-card-front">
@@ -178,30 +223,47 @@
 </section>
 
 
+
   <!-- Footer -->
 
   <footer class="white-section" id="footer">
     <div class="container-fluid">
-
-       <a href="https://www.facebook.com/soumita.biswas.961/"><i class="fab fa-facebook-f social-logo logo1"></i><a>
+      <div data-aos="flip-up" data-aos-duration="800" data-aos-offset="100">
+       <a href="https://www.facebook.com/soumita.biswas.961/"><i class="fab fa-facebook-f social-logo logo1"></i></a>
       <a href="https://www.instagram.com/_.soumita._/"><i class="fab fa-instagram social-logo logo2"></i></a>
       <a href="https://www.linkedin.com/in/soumita-biswas-88b0941ab/"><i class="fab fa-linkedin social-logo logo3"></i></a>
       <a href="mailto: sb2253@gmail.com"><i class="fas fa-envelope social-logo logo4"></i></a>
+      </div>
       <p class="p1">“For it is in giving that we receive.”</p>
-      <p class="p2">© Copyright Helping Hand || 2021</p>
+      <p class="p2">© Copyright Helping Hand || <script>document.write(new Date().getFullYear())</script></p>
     </div>
   </footer>
 
 
+
+<!-- Javascript -->
+  <script>
+    var btn = $('#button');
+    
+    $(window).scroll(function() {
+      if ($(window).scrollTop() > 300) {
+        btn.addClass('show');
+      } else {
+        btn.removeClass('show');
+      }
+    });
+    
+    btn.on('click', function(e) {
+      e.preventDefault();
+      $('html, body').animate({scrollTop:0}, '300');
+    });
+    </script>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+
 </body>
-
 </html>
-
-
-
-
-
-
-
-
-

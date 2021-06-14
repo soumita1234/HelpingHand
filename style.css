@@ -12,18 +12,44 @@ body {
   font-size: 2.5rem;
   font-weight: bold;
   font-family: "Ubuntu";
+  margin-left: 6rem;
+  color: rgb(255, 255, 255);
 }
-
+.navbar-brand:hover{
+  transform: scale(1.04);
+  color: #a00505;
+  transition: 0.8s;
+}
 .navbar {
-  padding: 0 0 4.5rem;
+  padding: 0 0 0.3rem;
+  right: 0; left: 0; top: 0;
+  background: #ff6e7f;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4682B4, #ff6e7f);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4682B4, #ff6e7f);
+  position: fixed;
+  z-index: 10;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
 }
-
+.navbar-nav{
+  margin-right: 5rem;
+}
 .nav-item {
-  padding: 0 18px;
+  padding: 0 1.5rem;
 }
-
+.nav-item:hover{
+  transform: scale(1.1);
+  transition: 0.2s;
+}
 .nav-link {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+a.nav-link:hover{
+  background: rgb(236, 213, 0);
+  border-radius: 2rem;
 }
 
 /* title section */
@@ -32,15 +58,13 @@ body {
   background: #ff6e7f;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #4682B4, #ff6e7f);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #4682B4, #ff6e7f);
-
   color: #fff;
+  margin-top: 4rem;
 }
-
 
 .big-heading {
   font-size: 2rem;
   line-height: 1.5;
-
 }
 
 .title-image {
@@ -48,7 +72,7 @@ body {
 }
 
 .container-fluid {
-  padding: 3% 15% 7%;
+  padding: 8% 15% 7%;
 }
 
 .download-button {
@@ -77,13 +101,12 @@ body {
 }
 
 /* features */
-
 #features {
   padding: 6% 6%;
   background-color: #fffed5; 
   z-index: 1;
   position: relative;
-  background-color: #fffed5;
+  background-color: rgb(152, 205, 248);
   /* display: flex;
   flex-direction: row; */
 }
@@ -194,9 +217,10 @@ p {
 }
 
 /* footer */
+
 #footer {
   text-align: center;
-  padding: 5% 5%;
+  padding: 0 5%;
   /*background-color: #ffd1e1;*/
   background: #ff6e7f;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #f7bfbe, #E6E6FA);  /* Chrome 10-25, Safari 5.1-6 */
@@ -204,9 +228,10 @@ p {
 }
 
 .social-logo {
-  margin: 50px 30px;
+  margin: 40px 30px;
   font-size: 2rem;
 }
+
 
 .logo1 {
   color: #4f42ff;
@@ -227,21 +252,53 @@ p {
   color: purple;
 }
 
-.p1 {
+.p1, .p2 {
   color: #fff;
+  margin: 9px;
 }
-.p2 {
-  color: #fff;
-}
+
 
 /* responsive */
 @media (max-width:990px) {
   .title-image {
     position: static;
-
   }
 
   .title {
     text-align: center;
   }
+
 }
+
+
+@media (max-width: 375px) {
+  .container-fluid {
+    padding: 3% 15% 7%;
+  }
+}
+@media (max-width: 595px) {
+  .social-logo {
+    margin: 40px 10px;
+    font-size: 1.40rem;
+  }
+  .p1, .p2 {
+    font-size: 14px;
+  }
+}
+
+
+.title-image {
+  /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+    filter: gray; /* IE5+ */
+    -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: all .5s ease-in-out;  
+  }
+
+  img:hover {
+  filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.01);
+  }
+
+  
+
