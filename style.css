@@ -90,11 +90,14 @@ a.nav-link:hover{
   font-family: 'Poppins', sans-serif;
   font-size: 10px;
   cursor: pointer;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
   text-align: center;
-  border-radius: 4px;
   line-height: 30px;
+  border-radius: 30px;
+  background: #e91e63;
+  box-shadow: inset 5px 5px 10px #5d0c28,
+    inset -5px -5px 10px #ff309e;
 }
 #rzp-button1:hover{
   background-color: #b60c45;
