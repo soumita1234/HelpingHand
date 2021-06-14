@@ -83,7 +83,7 @@ This project follows the [MIT License](https://github.com/soumita1234/HelpingHan
 ## Project Admin👩
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/soumita1234"><img src="https://avatars.githubusercontent.com/u/58908901?v=4" height="120px" width="120px"/><br/><sub><b>Soumita Biswa👩</b></sub></a></td>
+    <td align="center"><a href="https://github.com/soumita1234"><img src="https://avatars.githubusercontent.com/u/58908901?v=4" height="120px" width="120px"/><br/><sub><b>Soumita Biswas👩</b></sub></a></td>
   </tr>
 </table>
 
