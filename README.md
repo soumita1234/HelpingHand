@@ -3,7 +3,7 @@
 
 <h4 aligh="center"> A payment integrated donation website through which one can donate, just by a click. </h4>
 
-[Launch HelpingHand](https://soumita1234.github.io/HelpingHand/) 🙌
+🔗[Launch HelpingHand](https://soumita1234.github.io/HelpingHand/) 🙌
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/soumita1234/HelpingHand)&nbsp;
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=flat&logo=github)](https://github.com/soumita1234/HelpingHand)&nbsp;
