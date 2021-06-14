@@ -51,6 +51,19 @@ a.nav-link:hover{
   background: rgb(236, 213, 0);
   border-radius: 2rem;
 }
+.navbarlogo{
+  width: 240px;
+  height: 160px;
+  margin: -40px 23px;
+  margin-left: -5px;
+  margin-right: -130px;
+  margin-bottom: -42px;
+}
+.navbarlogo:hover{
+  cursor: pointer;
+}
+
+
 
 /* title section */
 #title {
