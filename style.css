@@ -220,6 +220,58 @@ p {
   padding: 7% 15% 7%;
 }
 
+
+
+
+/******************** FAQS Section*****************************/
+#faq {
+  /*background-color: gray;*/
+  background: #ff6e7f;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4682B4, #ff6e7f);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4682B4, #ff6e7f);
+  color: #fff;
+  height:60vh;
+  padding-top:50px;
+}
+#faq h2{
+  text-align:center;
+}
+.faq-container{
+  width:70vw;
+  height:40vh;
+  border-radius:10px;
+  margin: auto;
+  padding:20px 50px ;
+  margin-top:20px;
+  border:1px solid black;
+}
+
+  
+.question-div > p{
+  padding:5px 8px 1px 8px;
+  color:white;
+  font-size:20px;
+}
+.question-div i{
+  float:right;
+  color:white;
+  font-size:15px;
+}
+.answer {
+  color:black;
+  display: none;
+  width:65vw;
+  padding:5px;
+  position: absolute;
+  background-color:white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index:2;
+}
+.question-div:hover .answer{
+display: block;
+
+}
+
 /* footer */
 
 #footer {
@@ -303,6 +355,7 @@ p {
     -webkit-filter: grayscale(0);
     -webkit-transform: scale(1.01);
   }
+
 
   
 
