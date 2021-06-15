@@ -68,7 +68,7 @@ a.nav-link:hover{
 }
 
 .title-image {
-  position: absolute;
+  position: static;
 }
 
 .container-fluid {
@@ -80,7 +80,12 @@ a.nav-link:hover{
 }
 
 .title-image {
-  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #2f4f4f;
+  border-radius: 8px;
+  padding: 5px;
+  width: 90%;
+  height: 550px;
 }
 
 #rzp-button1{
@@ -103,7 +108,7 @@ a.nav-link:hover{
 /* features */
 #features {
   padding: 7% 15%;
-  background-color: #fffed5; 
+  background-color: #2f4f4f; 
   z-index: 1;
   position: relative;
 }
@@ -296,5 +301,3 @@ p {
     font-weight: bold;
     transform: rotateY(180deg);
     }
-  
-
