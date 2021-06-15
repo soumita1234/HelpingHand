@@ -87,6 +87,7 @@ This project follows the [MIT License](https://github.com/soumita1234/HelpingHan
   </tr>
 </table>
 
+
 ## ✨Our valuable Contributors :
 
 
@@ -100,6 +101,9 @@ This project follows the [MIT License](https://github.com/soumita1234/HelpingHan
 	</tr>
 </table>
 
+<h2 align=center> 🌟 Stargazers Over Time 🌟 </h2>
+
+[![Stargazers over time](https://starchart.cc/soumita1234/HelpingHand.svg)](https://starchart.cc/soumita1234/HelpingHand)
 
 
 
