@@ -51,6 +51,19 @@ a.nav-link:hover{
   background: rgb(236, 213, 0);
   border-radius: 2rem;
 }
+.navbarlogo{
+  width: 240px;
+  height: 160px;
+  margin: -40px 23px;
+  margin-left: -5px;
+  margin-right: -130px;
+  margin-bottom: -42px;
+}
+.navbarlogo:hover{
+  cursor: pointer;
+}
+
+
 
 /* title section */
 #title {
@@ -68,7 +81,12 @@ a.nav-link:hover{
 }
 
 .title-image {
-  position: static;
+  border-radius: 8px;
+  border: 1px solid #2f4f4f;
+  border-radius: 8px;
+  padding: 5px;
+  width: 90%;
+  height: 550px;
 }
 
 .container-fluid {
@@ -80,75 +98,118 @@ a.nav-link:hover{
 }
 
 .title-image {
-  border-radius: 8px;
-  border: 1px solid #2f4f4f;
-  border-radius: 8px;
-  padding: 5px;
-  width: 90%;
-  height: 550px;
+  width: 100%;
 }
 
 #rzp-button1{
   background-color: #e91e63;
   color: #ffffff;
-  border: 2px solid transparent;
   font-family: 'Poppins', sans-serif;
-  font-size: 10px;
   cursor: pointer;
-  font-weight: 400;
+  font-size: 10px;
   text-transform: uppercase;
-  text-align: center;
-  border-radius: 4px;
+  font-weight: 500;
   line-height: 30px;
+  text-align: center;
+  border: 2px solid transparent;
+  background: #e91e63;
+  box-shadow: inset 5px 5px 10px #5d0c28,
+  inset -5px -5px 10px #ff309e;
+  border-radius: 30px !important;
 }
+
 #rzp-button1:hover{
   background-color: #b60c45;
 }
 
 /* features */
 #features {
-  padding: 7% 15%;
-  background-color: #2f4f4f; 
+  padding: 6% 6%;
+  background-color: #fffed5; 
   z-index: 1;
   position: relative;
+  background-color: #fffed5;
+  /* display: flex;
+  flex-direction: row; */
 }
 
-.feature-title{
-  font-size: 1.3rem;
+.flip-card{
+  background-color: transparent;
+  width: 300px;
+  height: 400px;
+  perspective: 1000px;
+  display: inline-block;
+  padding: 10px 10px 20px 20px;
+  
+  margin:0 60px;
+  padding:20px 0px;
+  /* background-color: black; */
+ 
 }
-
-.feature-box {
+.flip-card-inner{
+  /* position: relative; */
+  margin-left: 30px;
+  margin-top: 28px;
+  width: 100%;
+  height: 100%;
   text-align: center;
-  padding: 5%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  
 }
 
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+  
+}
+
+/* .flip-card:hover .flip-card-inner-2 {
+  transform: rotateY(180deg);
+  
+}
+
+.flip-card:hover .flip-card-inner-3 {
+  transform: rotateY(180deg);
+  
+} */
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: lavenderblush;
+  color: purple;
+}
+
+.flip-card-back {
+  background-color: white;
+  /* border: white; */
+  color: white;
+  transform: rotateY(180deg);
+}
 .icon {
   margin-bottom: 1rem;
 }
-
-
  #icon1 {
-  color: #ADFF2F;
+  color: #cbfd17;
 }
-#icon1:hover {
-  color: #00c40d;
-} 
 #icon2 {
-  color: #87CEFA;
+  color: #69c4fd;
 }
-#icon2:hover {
-  color: blue;
-} 
 #icon3 {
-  color: pink;
-}
-#icon3:hover {
   color: red;
-} 
-
-
+}
 p {
   color: #8f8f8f;
+}
+.feature-title{
+  font-size: 1.3rem;
 }
 
 /* testimonials */
@@ -175,6 +236,58 @@ p {
   color: #fff;
   text-align: center;
   padding: 7% 15% 7%;
+}
+
+
+
+
+/******************** FAQS Section*****************************/
+#faq {
+  /*background-color: gray;*/
+  background: #ff6e7f;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4682B4, #ff6e7f);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4682B4, #ff6e7f);
+  color: #fff;
+  height:60vh;
+  padding-top:50px;
+}
+#faq h2{
+  text-align:center;
+}
+.faq-container{
+  width:70vw;
+  height:40vh;
+  border-radius:10px;
+  margin: auto;
+  padding:20px 50px ;
+  margin-top:20px;
+  border:1px solid black;
+}
+
+  
+.question-div > p{
+  padding:5px 8px 1px 8px;
+  color:white;
+  font-size:20px;
+}
+.question-div i{
+  float:right;
+  color:white;
+  font-size:15px;
+}
+.answer {
+  color:black;
+  display: none;
+  width:65vw;
+  padding:5px;
+  position: absolute;
+  background-color:white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index:2;
+}
+.question-div:hover .answer{
+display: block;
+
 }
 
 /* footer */
@@ -247,6 +360,40 @@ p {
   }
 }
 
+/* Header Responsive */
+@media screen and (max-width: 412px) {
+  .big-heading{
+    margin-top:1.2rem;
+    font-size: 1.7rem;
+  }
+  .navbar-brand{
+    position:relative;
+    top:1.3rem;
+  }
+  .navbar-toggler{
+    position:relative;
+    margin-top:-2rem;
+    padding-bottom: 1rem;
+  }
+}
+@media screen and (max-width: 365px){
+  .big-heading{
+    font-size: 1.5rem;
+  }
+  .navbar-brand{
+    font-size: 2rem;
+    top:1.1rem;
+  }
+}
+@media screen and (max-width: 295px){
+  .big-heading{
+    font-size: 1.3rem;
+  }
+  .navbar-brand{
+    font-size: 1.6rem;
+    top:0.7rem;
+  }
+}
 
 .title-image {
   /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
@@ -260,44 +407,7 @@ p {
     -webkit-filter: grayscale(0);
     -webkit-transform: scale(1.01);
   }
-  .flip-card {
-    background-color:transparent;
-    width: 300px;
-    height: 450px;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
-  }
+
+
   
-   /* This container is needed to position the front and back side */
-  .flip-card-inner {
-    position: right;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-    }
-  
-    /* Do an horizontal flip when you move the mouse over the flip box container */
-    .flip-card:hover .flip-card-inner {
-     transform: rotateY(-180deg);
-    }
-  
-    /* Position the front and back side */
-    .flip-card-front, .flip-card-back {
-     position: absolute;
-     width: 100%;
-     height: 100%;
-     -webkit-backface-visibility: hidden; /* Safari */
-     backface-visibility: hidden;
-    }
-  
-    /* Style the front side (fallback if image is missing) */
-    .flip-card-front {
-      background-color:#212529;
-      align-items: center;
-    }
-    .flip-card-back {
-    background-color:#212529;
-    color: white;
-    font-size: larger;
-    font-weight: bold;
-    transform: rotateY(180deg);
-    }
+
