@@ -1,10 +1,9 @@
-h1, h2, h3 {
+
+
+
+h1, h3 {
   font-weight: bolder;
 
-}
-
-body {
-  font-family: "Montserrat";
 }
 
 /* nav bar */
@@ -17,7 +16,7 @@ body {
 }
 .navbar-brand:hover{
   transform: scale(1.04);
-  color: #a00505;
+  color:  	 	 	#FDF5E6;
   transition: 0.8s;
 }
 .navbar {
@@ -48,7 +47,7 @@ body {
   text-align: center;
 }
 a.nav-link:hover{
-  background: rgb(236, 213, 0);
+  background:  	#FDF5E6;
   border-radius: 2rem;
 }
 
@@ -60,6 +59,7 @@ a.nav-link:hover{
   background: linear-gradient(to right, #4682B4, #ff6e7f);
   color: #fff;
   margin-top: 4rem;
+  cursor: context-menu;
 }
 
 .big-heading {
@@ -97,20 +97,22 @@ a.nav-link:hover{
   line-height: 30px;
 }
 #rzp-button1:hover{
-  background-color: #b60c45;
+  background-color: #fa8072;
 }
 
 /* features */
 #features {
   padding: 6% 6%;
-  background-color: #fffed5; 
+  background:url(../images/ug.png);
   z-index: 1;
   position: relative;
-  background-color: #fffed5;
-  /* display: flex;
-  flex-direction: row; */
+
 }
 
+.feature-title
+   {
+    font-family: "Montserrat";
+}
 .flip-card{
   background-color: transparent;
   width: 300px;
@@ -118,14 +120,13 @@ a.nav-link:hover{
   perspective: 1000px;
   display: inline-block;
   padding: 10px 10px 20px 20px;
-  
-  margin:0 60px;
+  align-self: center;
+  margin:0 30px;
   padding:20px 0px;
-  /* background-color: black; */
+  
  
 }
 .flip-card-inner{
-  /* position: relative; */
   margin-left: 30px;
   margin-top: 28px;
   width: 100%;
@@ -142,15 +143,6 @@ a.nav-link:hover{
   
 }
 
-/* .flip-card:hover .flip-card-inner-2 {
-  transform: rotateY(180deg);
-  
-}
-
-.flip-card:hover .flip-card-inner-3 {
-  transform: rotateY(180deg);
-  
-} */
 
 .flip-card-front, .flip-card-back {
   position: absolute;
@@ -302,3 +294,94 @@ p {
 
   
 
+#vol{
+  padding: 10px 10px 20px 20px;
+  margin-left: 1.5%;
+  text-align: center;
+  background: url(./images/ug.png);
+  display:inline-block;
+  justify-content: center;
+}
+
+.container{
+  position: relative;
+  width: 1100px;
+  justify-content:center;
+  align-items: center;
+  padding:50px;
+
+}
+
+.container .card{
+  position: relative;
+  max-width: 300px;
+  height:400px;
+  background:#fff; 
+  border:none;
+  margin: 0px 15px;
+  padding : 20px 15px;
+  display: inline-block;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.container .card .imgBx{
+  position: relative;
+  width:300px;
+  height:250px;
+  top: -60px;
+  z-index: 1;
+  left: 20px;
+  
+}
+
+.container .card .imgBx img{
+width:300px;
+border-radius: 5px;
+}
+
+.container .card .content .h2{
+  text-align: center;
+}
+
+.container .card .content{
+  position: relative;
+  margin-top: -140px;
+  padding:10px 15px;
+  text-align: center;
+  opacity: 0;
+  transition:0.3s ease-in-out;
+}
+
+.container .card:hover .content{
+  opacity: 1;
+  margin-top: -40px;
+  transition-delay: 0.3s;
+  text-align: center;
+}
+
+h2 {
+  text-align: right;
+}
+
+.vcard{
+  text-align: center;
+  margin-left: 23px;
+}
+
+.Fwel{
+margin-left: 35%;
+}
+  
+.Fapp{
+  margin-left: 25%;
+  }
+    
+.Fmail{
+  justify-content:center;
+  margin-left: 10px;
+}
+
+.Hap{
+  margin-left: 30px;
+}
