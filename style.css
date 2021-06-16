@@ -103,7 +103,7 @@ a.nav-link:hover{
 /* features */
 #features {
   padding: 6% 6%;
-  background:url(../images/ug.png);
+  background:url(./images/ug.png);
   z-index: 1;
   position: relative;
 
