@@ -7,31 +7,24 @@ body {
   font-family: "Montserrat";
 }
 
-/* nav bar */
-.navbar-brand {
-  font-size: 2.5rem;
-  font-weight: bold;
-  font-family: "Ubuntu";
-  margin-left: 6rem;
-  color: rgb(255, 255, 255);
-}
-.navbar-brand:hover{
-  transform: scale(1.04);
-  color: #a00505;
-  transition: 0.8s;
-}
-.navbar {
-  padding: 0 0 0.3rem;
-  right: 0; left: 0; top: 0;
-  background: #ff6e7f;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #4682B4, #ff6e7f);  /* Chrome 10-25, Safari 5.1-6 */
+nav{
+
+  background: #ff6e7f;  
+  background: -webkit-linear-gradient(to right, #4682B4, #ff6e7f);  
   background: linear-gradient(to right, #4682B4, #ff6e7f);
   position: fixed;
   z-index: 10;
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+
 }
-.navbar-nav{
-  margin-right: 5rem;
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Ubuntu";
+  margin-left: -2rem;
+  color: rgb(255, 255, 255);
+ 
 }
 .nav-item {
   padding: 0 1.5rem;
@@ -40,6 +33,7 @@ body {
   transform: scale(1.1);
   transition: 0.2s;
 }
+
 .nav-link {
   font-size: 1.1rem;
   font-weight: 600;
@@ -52,12 +46,10 @@ a.nav-link:hover{
   border-radius: 2rem;
 }
 .navbarlogo{
-  width: 240px;
-  height: 160px;
-  margin: -40px 23px;
-  margin-left: -5px;
-  margin-right: -130px;
-  margin-bottom: -42px;
+ height:100px;
+ padding-right: 15px;
+ padding-left: 5px;
+ 
 }
 .navbarlogo:hover{
   cursor: pointer;
@@ -66,26 +58,28 @@ a.nav-link:hover{
 
 
 /* title section */
-#title {
-  /*background-color: gray;*/
-  background: #ff6e7f;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #4682B4, #ff6e7f);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #4682B4, #ff6e7f);
-  color: #fff;
-  margin-top: 4rem;
-}
+
+  #title {
+    background: #ff6e7f;  
+    background: -webkit-linear-gradient(to right, #4682B4, #ff6e7f);  
+    background: linear-gradient(to right, #4682B4, #ff6e7f);
+    color: #fff;
+    text-align: left;
+  }
 
 .big-heading {
   font-size: 2rem;
   line-height: 1.5;
 }
 
-.title-image {
-  position: absolute;
+
+.container-fluid{
+  padding: 7% 15%;
+ 
 }
 
-.container-fluid {
-  padding: 8% 15% 7%;
+.title-image {
+  position: absolute;
 }
 
 .download-button {
@@ -94,6 +88,7 @@ a.nav-link:hover{
 
 .title-image {
   width: 100%;
+  position: absolute;
 }
 
 #rzp-button1{
@@ -207,8 +202,8 @@ p {
   font-size: 1.3rem;
 }
 
-/* testimonials */
-#testimonials {
+ testimonials 
+ #testimonials {
   background-color: #ef8172;
   text-align: center;
   color: #fff;
@@ -223,7 +218,7 @@ p {
   width: 10%;
   border-radius: 100%;
   margin: 20px;
-}
+} 
 
 /* call to action*/
 #cta {
@@ -232,12 +227,12 @@ p {
   text-align: center;
   padding: 7% 15% 7%;
 }
-/* Custom scrollbar */
+
 ::-webkit-scrollbar{
   width: 20px;
 }
  ::-webkit-scrollbar-thumb{
-  /* background-image: linear-gradient(to bottom, rgb(70, 130, 180), rgb(255, 110, 127)); */
+
   background-color:#ff8e9bbd;
   border-radius: 10px;
   box-shadow: inset 2px 2px 5px rgb(145, 138, 138);
@@ -250,16 +245,16 @@ p {
 
 
 /******************** FAQS Section*****************************/
-#faq {
+/* #faq { */
   /*background-color: gray;*/
-  background: #ff6e7f;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #4682B4, #ff6e7f);  /* Chrome 10-25, Safari 5.1-6 */
+  /* background: #ff6e7f;  
+  background: -webkit-linear-gradient(to right, #4682B4, #ff6e7f);  
   background: linear-gradient(to right, #4682B4, #ff6e7f);
   color: #fff;
   height:60vh;
   padding-top:50px;
-}
-#faq h2{
+} */
+/* #faq h2{
   text-align:center;
 }
 .faq-container{
@@ -301,6 +296,74 @@ p {
   border-radius: 30px;
   padding: 30px 34px;
 }
+ */
+
+
+
+
+
+
+#faq {
+  /*background-color: gray;*/
+  background: #ff6e7f;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4682B4, #ff6e7f);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4682B4, #ff6e7f);
+  color: #fff;
+  height:60vh;
+  padding-top:50px;
+}
+#faq > h2{
+  padding-bottom: 2%;
+  text-align: center;
+}
+
+a{
+  color: #fff!important;	
+  }
+  ul.nav.nav-tabs > li{
+    display: inline-block;
+    line-height: 50px;
+    height: 100%;
+    text-transform:uppercase;
+  }
+  ul.nav.nav-tabs > li a{
+    display:block;
+    padding:15px;
+    color: #fff!important;
+    
+  }
+  ul.nav.nav-tabs > li a:hover, ul.nav.nav-tabs > li:hover{
+    background:	#FB282F;
+    color:#fff!important;
+    text-decoration: none!important;
+  }
+  ul.nav.nav-tabs > li a.active{
+    background:	#282425;
+    color:#fff!important;
+    text-decoration: none!important;
+  }
+  .card-header {
+      background-color: rgb(245,245,245,0.3)!important;
+    border-radius:0!important;
+  }
+  /* .card{
+  border-radius: 10px;;
+  background: #e91e63;
+  } */
+  
+  .card > .card-header a::before {
+      font-family: fontawesome;
+      content: "\f067 ";
+      color: #282425;
+      float: right;
+      margin-right: 15px;
+      font-weight: 400;
+      position: absolute;
+      right: 0;
+  }
+ .card-body{
+   color:darkgray;
+ }
 
 /* footer */
 
@@ -345,7 +408,7 @@ p {
 
 
 /* responsive */
-@media (max-width:990px) {
+/* @media (max-width:990px) {
   .title-image {
     position: static;
   }
@@ -370,10 +433,10 @@ p {
   .p1, .p2 {
     font-size: 14px;
   }
-}
+} */
 
 /* Header Responsive */
-@media screen and (max-width: 412px) {
+/* @media screen and (max-width: 412px) {
   .big-heading{
     margin-top:1.2rem;
     font-size: 1.7rem;
@@ -405,12 +468,11 @@ p {
     font-size: 1.6rem;
     top:0.7rem;
   }
-}
+} */
 
 .title-image {
-  /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
-    filter: gray; /* IE5+ */
-    -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+    filter: gray; 
+    -webkit-filter: grayscale(1); 
     -webkit-transition: all .5s ease-in-out;  
   }
 
@@ -423,3 +485,14 @@ p {
 
   
 
+/* responsive */
+@media (max-width:990px) {
+  .title-image {
+    position: static;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+}
