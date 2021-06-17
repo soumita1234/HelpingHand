@@ -421,5 +421,21 @@ p {
   }
 
 
-  
+.about-us{
+  background: black;  /* fallback for old browsers */
+ 
+  width: 100%;
+  height:400px;
 
+}  
+.about-us h2{
+  color:white;
+  text-align: center;
+}
+.card{
+  transition: transform .2s;
+  width:35rem;
+}
+.card:hover{
+  transform: scale(1.1)
+}
