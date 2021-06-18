@@ -422,8 +422,9 @@ p {
 
 
 .about-us{
-  background: black;  /* fallback for old browsers */
- 
+  background:  #e3dbd8;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #8f9cb0, #f56969);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right , #8f9cb0, #eb4242);
   width: 100%;
   height:400px;
 
@@ -437,5 +438,6 @@ p {
   width:35rem;
 }
 .card:hover{
-  transform: scale(1.1)
+  transform: scale(1.1);
+  cursor:pointer;
 }
