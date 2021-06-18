@@ -93,7 +93,13 @@ a.nav-link:hover{
 }
 
 .title-image {
-  width: 100%;
+  
+  width: 265px;
+  box-shadow: 0 20px 20px 20px white;
+  margin-bottom: 100px;
+  margin-left: 100px;
+  border-radius: 10px;
+  
 }
 
 #rzp-button1{
