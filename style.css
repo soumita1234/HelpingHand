@@ -81,7 +81,8 @@ a.nav-link:hover{
 }
 
 .title-image {
-  position: absolute;
+  position: sticky;
+  bottom: 0.4px;
 }
 
 .container-fluid {
@@ -96,7 +97,6 @@ a.nav-link:hover{
   
   width: 265px;
   box-shadow: 0 20px 20px 20px white;
-  margin-bottom: 100px;
   margin-left: 100px;
   border-radius: 10px;
   
