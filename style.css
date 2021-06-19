@@ -350,41 +350,7 @@ p {
 }
 
 
-/* footer */
-
-/* #footer {
-  text-align: center;
-  padding: 0 5%;
-  background-color: #ffd1e1;
-  background: #ff6e7f;  /* fallback for old browsers */
-  /*background: -webkit-linear-gradient(to right, #f7bfbe, #E6E6FA);*/  /* Chrome 10-25, Safari 5.1-6 */
-  /*background: linear-gradient(to right, #ff6e7f, #E6E6FA);
-} */
-
-/* .social-logo {
-  margin: 40px 30px;
-  font-size: 2rem;
-}
-
-
-.logo1 {
-  color: #4f42ff;
-}
-.logo2 {
-  color: #e6007b;
-}
-
-.logo3 {
-  color: #00a8fa;
-}
-
-.logo4 {
-   color: #ff293c;
-}
-
-.social-logo:hover {
-  color: purple;
-} */
+/************   Responsive   ********/
 
 .p1, .p2 {
   color: rgb(150, 150, 150);
