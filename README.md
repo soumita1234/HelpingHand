@@ -1,11 +1,16 @@
-<h1 align="center"> HelpingHand </h1>
+<h1 align="center">HelpingHand 🤝</h1>
+<h4 align="center"> A payment integrated donation website through which one can donate, just by a click. </h4>
 
-<h4 aligh="center"> A payment integrated donation website through which one can donate, just by a click. </h4>
-
-![Capture](https://user-images.githubusercontent.com/58908901/122552769-595c8d00-d054-11eb-95a0-d75a09fa95ee.JPG)
-
-
-🔗[Launch HelpingHand](https://soumita1234.github.io/HelpingHand/) 🙌
+<div style="margin-bottom: 2em;">
+  <p align="center">
+  <span>
+    <a style="font-size: 16px;" href="https://soumita1234.github.io/HelpingHand/">Website</a> &bullet;
+    <!-- <a style="font-size: 16px;" href="#">Docs</a>  &bullet; -->
+    <a style="font-size: 16px;" href="https://discord.gg/sG5SDZ5a">Discord</a>
+  </span>
+  </p>
+</div>
+<div align="center">
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/soumita1234/HelpingHand)&nbsp;
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=flat&logo=github)](https://github.com/soumita1234/HelpingHand)&nbsp;
@@ -21,6 +26,7 @@
 [![GitHub closed-issues](https://img.shields.io/github/issues-closed-raw/soumita1234/HelpingHand)](https://github.com/soumita1234/HelpingHand/pulls)
 [![GitHub closed-prs](https://img.shields.io/github/issues-pr-closed-raw/soumita1234/HelpingHand)](https://github.com/soumita1234/HelpingHand/pulls)
 
+</div>
 ## 💻Tech Stack
 
 [![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)](https://github.com/soumita1234/HelpingHand/search?l=html)&nbsp;

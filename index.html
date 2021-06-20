@@ -20,14 +20,14 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
   <!--internal CSS-->
@@ -155,8 +155,7 @@
                         icon: "error",
                         button: "Close",
                       });
-                    }
-                    else {
+                    } else {
                       swal({
                         title: "Thank You!",
                         icon: "success",
@@ -255,63 +254,102 @@
   </section>
 
   <!---------------------------------------FAQ Section--------------------------------------->
+
+  <!---------------------------------------FAQ Section--------------------------------------->
   <section id="faq">
     <div class="secf">
-      <h2>FAQs</h2>
+      <h2>FAQ</h2>
     </div>
-    <div class="faq-container">
-      <details>
-        <summary class="question-div" style="border-bottom: 1px solid black;">
-          <p class="question">Is my payment/transaction secured when I’m donating?</p>
-        </summary>
-        <div class="answer">
-          <p>All Payments are secured via 128-bit encryption. Helping Hand assures you that the information you provide
-            is completely protected and that your donations are safe. Our secure-server software encrypts all your
-            personal information including name, contact number, email ID and address. If you wish to maintain
-            anonymity, you can click on ‘Anonymous’ while donating.</p>
+    <div class="container bg-none">
+      <div class="accordion accordion-flush faq-container" id="accordionFlushExample">
+        <div class="accordion-item bg-transparent">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed bg-transparent text-light" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Is my payment/transaction secured when I’m donating?
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse text-light" aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body answer answer">All Payments are secured via 128-bit encryption. Helping Hand
+              assures you that
+              the
+              information you provide
+              is completely protected and that your donations are safe. Our secure-server software encrypts all your
+              personal information including name, contact number, email ID and address. If you wish to maintain
+              anonymity, you can click on ‘Anonymous’ while donating.</div>
+          </div>
         </div>
-      </details>
-      <details>
-        <summary class="question-div" style="border-bottom: 1px solid black;">
-          <p class="question"> How are the Children verified?</p>
-        </summary>
-        <div class="answer">
-          <p>We, are extremely particular about the authenticity of a campaign. In order to ensure it is genuine, we
-            follow a strict 3-step process before listing any fundraiser. The rigorous verification process involves
-            submission of legal identity proofs and medical documents. Furthermore, the specifics of each case are
-            verified by the concerned hospital’s medical team. All fundraisers are ‘Assured’ and they protect the
-            donor’s interest.</p>
+        <div class="accordion-item bg-transparent">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed bg-transparent text-light" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              How are the Children verified?
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body answer">We, are extremely particular about the authenticity of a campaign. In
+              order to
+              ensure it is genuine, we
+              follow a strict 3-step process before listing any fundraiser. The rigorous verification process involves
+              submission of legal identity proofs and medical documents. Furthermore, the specifics of each case are
+              verified by the concerned hospital’s medical team. All fundraisers are ‘Assured’ and they protect the
+              donor’s interest.</div>
+          </div>
         </div>
-      </details>
-      <details>
-        <summary class="question-div" style="border-bottom: 1px solid black;">
-          <p class="question"> How are my donations being utilized?</p>
-        </summary>
-        <div class="answer">
-          <p>There are many campaigns in urgent need of funds. Every month, your donation will be transferred to a
-            hospital, school, orphanage for one such campaign to aid a child’s treatment and education.</p>
+        <div class="accordion-item bg-transparent">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed bg-transparent text-light" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              How are my donations being utilized?
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body answer">There are many campaigns in urgent need of funds. Every month, your
+              donation
+              will
+              be transferred to a
+              hospital, school, orphanage for one such campaign to aid a child’s treatment and education.</div>
+          </div>
         </div>
-      </details>
-      <details>
-        <summary class="question-div" style="border-bottom: 1px solid black;">
-          <p class="question">Whom do I contact if I have a question or problem making an online donation?</p>
-        </summary>
-        <div class="answer">
-          <p>LIn case when you are stuck at any step while donating or you have any other question , you can directly
-            contact on the given number: 123-90898.</p>
+        <div class="accordion-item bg-transparent">
+          <h2 class="accordion-header" id="flush-headingFour">
+            <button class="accordion-button collapsed bg-transparent text-light" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+              Whom do I contact if I have a question or problem making an online donation?
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body answer">LIn case when you are stuck at any step while donating or you have any
+              other
+              question , you can directly
+              contact on the given number: 123-90898.</div>
+          </div>
         </div>
-      </details>
-      <details>
-        <summary class="question-div">
-          <p class="question">What does donating online offer me?</p>
-        </summary>
-        <div class="answer">
-          <p>It provides an easy, convenient way to donate to our mission, and reduces our fundraising costs. Plus, by
-            donating with your credit card, you can use your credit card statement for taxes/receipts, earn credit card
-            rewards, save time and reduce postage costs.</p>
+        <div class="accordion-item bg-transparent">
+          <h2 class="accordion-header" id="flush-headingFive">
+            <button class="accordion-button collapsed bg-transparent text-light" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+              What does donating online offer me?
+            </button>
+          </h2>
+          <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body answer">It provides an easy, convenient way to donate to our mission, and reduces
+              our
+              fundraising costs. Plus, by
+              donating with your credit card, you can use your credit card statement for taxes/receipts, earn credit
+              card
+              rewards, save time and reduce postage costs.</div>
+          </div>
         </div>
-      </details>
+      </div>
+
     </div>
+
   </section>
 
   <section id="contact-us">
@@ -401,8 +439,8 @@
           document.write(new Date().getFullYear())
           </script>
           || Helping Hand. All rights reserved
-      </p>
-    </div>
+        </p>
+      </div>
   </footer>
 
 
@@ -424,9 +462,10 @@
 
     btn.on('click', function (e) {
       e.preventDefault();
-      $('html, body').animate({ scrollTop: 0 }, '300');
+      $('html, body').animate({
+        scrollTop: 0
+      }, '300');
     });
-
   </script>
 
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -464,6 +503,9 @@
     })
   </script>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+  </script>
 
 </body>
 
