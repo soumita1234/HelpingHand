@@ -27,7 +27,9 @@
 [![GitHub closed-prs](https://img.shields.io/github/issues-pr-closed-raw/soumita1234/HelpingHand)](https://github.com/soumita1234/HelpingHand/pulls)
 
 </div>
-## 💻Tech Stack
+
+####  💻Tech Stack
+
 
 [![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)](https://github.com/soumita1234/HelpingHand/search?l=html)&nbsp;
 [![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)](https://github.com/soumita1234/HelpingHand/search?l=css)&nbsp;
