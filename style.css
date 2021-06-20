@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 h1, h2, h3 {
   font-weight: bolder;
 
@@ -350,42 +356,123 @@ p {
 }
 
 
-/************   Responsive   ********/
 
-.p1, .p2 {
-  color: rgb(150, 150, 150);
-  margin: 9px;
-  display: block;
-  border-radius: 50%;
-  text-align: center;
+footer{
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 50px 70px;
+  background: #111;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
 }
 
-/* responsive */
-@media (max-width:990px) {
-  .title-image {
-    position: static;
-  }
+footer .container .sec{
+  padding-right: 30px;
+}
 
-  .title {
+footer .container .sec.Aboutus
+    {
+        width: 30%;
+        padding-right: 30px;
+    }
+    footer .container .sec.Aboutus h2
+    {
+        position: relative;
+    } 
+    footer .container .sec.Aboutus h2:before
+    {
+        content: '';
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        width: 190px;
+        height: 2px;
+        background: #fff;
+    }
+    footer p
+    {
+        color: #999;
+    }
+    .sci
+    {
+        margin-top: 20px;
+        display: flex;
+        padding: 0;
+    }
+    .sci li
+    {
+        list-style: none;
+    }
+    .sci li a
+    {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background: #222;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+        text-decoration: none;
+        border-radius: 4px;
+    }
+    .sci li a:hover
+    {
+        background: #db198a;
+    }
+    .sci li a .fa
+    {
+        color: #fff;
+        font-size: 20px;
+    }
+    .QuickLinks
+    {
+        position: relative;
+        width: 25%;
+    }
+    .QuickLinks h2
+    {
+        margin-bottom: 10px;
+    }
+    .QuickLinks u1 li
+    {
+        list-style: none;
+    }
+    .QuickLinks u1 li a
+    {
+        color: #999;
+        text-decoration: none;
+        margin-bottom: 10px;
+        display: inline-block;
+
+    }
+    .QuickLinks u1 li a:hover
+    {
+        color: #fff;
+        padding-left: 5px;
+        transition: all 0.5s ease;
+    }
+    footer .container .sec h2{
+      color: #fff;
+      margin-bottom: 15px;
+    }
+    
+.copyrightText{
+    width: 100%;
+    padding-top: 40px;
     text-align: center;
-  }
-
 }
 
-
-@media (max-width: 375px) {
-  .container-fluid {
-    padding: 3% 15% 7%;
-  }
+.copyrightText p{
+  margin: 0;
 }
-@media (max-width: 595px) {
-  .social-logo {
-    margin: 40px 10px;
-    font-size: 1.40rem;
-  }
-  .p1, .p2 {
-    font-size: 14px;
-  }
+
+.form-control{
+  color: #fff !important
 }
 
 /* Header Responsive */
