@@ -122,7 +122,7 @@
           <a class="nav-link" href="#faq"><i class="fas fa-question"></i>&nbsp;FAQ</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#footer"><i class="fas fa-envelope"></i>&nbsp;Contact</a>
+          <a class="nav-link" href="#contact"><i class="fas fa-envelope"></i>&nbsp;Contact</a>
         </li>
       </ul>
     </div>
@@ -352,11 +352,11 @@
 
   </section>
 
-  <section>
+  <section id="contact-us">
     <div class="contact">
       <h2>Contact Us</h2>
       <p>HAVE SOME QUESTIONS?</p>
-      <form action="fetchdata.php">
+      <form class="form" id="myForm" enctype="multipart/form-data">
 
         <div class="contbutton">
           <label for="First">
@@ -372,7 +372,7 @@
             <input type="textarea" placeholder="Your questions..." id="problem">
           </label><br>
           <div class="subbtn">
-            <button>Send Message</button>
+            <button type="submit">Send Message</button>
           </div>
         </div>
       </form>
@@ -380,122 +380,37 @@
     </div>
   </section>
 
-  <!-- Footer -->
-
-  <!-- <footer class="white-section" id="footer">
-      <div class="container-fluid">
-        <div data-aos="flip-up" data-aos-duration="800" data-aos-offset="100">
-         <a href="https://www.facebook.com/soumita.biswas.961/"><i class="fab fa-facebook-f social-logo logo1"></i></a>
-        <a href="https://www.instagram.com/_.soumita._/"><i class="fab fa-instagram social-logo logo2"></i></a>
-        <a href="https://www.linkedin.com/in/soumita-biswas-88b0941ab/"><i class="fab fa-linkedin social-logo logo3"></i></a>
-        <a href="mailto: sb2253@gmail.com"><i class="fas fa-envelope social-logo logo4"></i></a>
-        </div>
-        <p class="p1">“For it is in giving that we receive.”</p>
-        <p class="p2">© Copyright Helping Hand || <script>document.write(new Date().getFullYear())</script></p>
-      </div>
-    </footer> -->
+  
 
 
-
-
-
+  
   <!--************* Footer ********** -->
   <!-- Footer -->
-  <footer id="dk-footer" class="dk-footer">
+  <footer id="dk-footer">
     <div class="container">
-      <div class="row">
-        <div class="col-md-12 col-lg-4">
-          <div class="dk-footer-box-info">
-            <a href="index.html" class="footer-logo">
-              <img src="https://cdn.pixabay.com/photo/2016/11/07/13/04/yoga-1805784_960_720.png" alt="footer_logo"
-                class="img-fluid">
-            </a>
-            <p class="footer-info-text">
-              “None of us, including me, ever do great things. But we can all do small things, with great love, and
-              together we can do something wonderful. Just together.”
-
-            </p>
-            <div class="footer-social-link">
-              <h3>Follow us</h3>
-              <ul>
-                <li>
-                  <a href="https://www.facebook.com/soumita.biswas.961/" target="_blank">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" target="_blank">
-                    <i class="fa fa-twitter"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="mailto: sb2253@gmail.com" target="_blank">
-                    <i class="fa fa-google-plus"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.linkedin.com/in/soumita-biswas-88b0941ab/" target="_blank">
-                    <i class="fa fa-linkedin"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.instagram.com/_.soumita._/" target="_blank">
-                    <i class="fa fa-instagram" target="_blank"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <!-- End Social link -->
-          </div>
-          <!-- End Footer info -->
+        <div class="sec Aboutus">
+          <h2>Helping Hand</h2>
+          <p>“None of us, including me, ever do great things. But we can all do small things, with great love, and together we can do something wonderful. Just together.”
+          </p>
         </div>
         <!-- End Col -->
-        <div class="col-md-12 col-lg-8">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="contact-us"></div>
-            </div>
+          <div class="sec QuickLinks">
+            <h2>About Us</h2>
+            <u1>
+                <li><a href="#title">Home</a></li>
+                <li><a href="#features">Mission</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact-us">Contact</a></li>
+            </u1>
           </div>
-          <!-- End Contact Row -->
-          <div class="row">
-            <div class="col-md-12 col-lg-6">
-              <div class="footer-widget footer-left-widget">
-                <div class="section-heading">
-                  <h3>Category</h3>
-                  <span class="animate-border border-black"></span>
-                </div>
-                <div class="category">
-                  <ul>
-                    <li>
-
-                      <a href="#title">Home</a>
-                    </li>
-                    <li>
-                      <a href="#features">Mission</a>
-                    </li>
-                    <li>
-                      <a href="#faq">Contact</a>
-                    </li>
-                    <li>
-                      <a href="#faq">FAQ</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <!-- End Footer Widget -->
-            </div>
             <!-- End col -->
-            <div class="col-md-12 col-lg-6">
-              <div class="footer-widget">
-                <div class="section-heading">
-                  <h3>Contact Us</h3>
-                  <span class="animate-border border-black"></span>
-                </div>
+                <div class="sec section-heading">
+                  <h2>Contact Us</h2>
                 <p>
                   Having some questions? Don’t miss your problem
                 </p>
                 <form action="#">
-                  <div class="form-row">
+                  <div class="sec form-row">
                     <div class="col dk-footer-form">
                       <input type="email" class="form-control" placeholder="Email Address">
                       <button type="submit" id="gmailus" value="mailto: sb2253@gmail.com">
@@ -504,34 +419,24 @@
                     </div>
                   </div>
                 </form>
-                <!-- End form -->
+                </div>
+            <div class="sec">
+              <h2>Follow Us</h2>
+              <ul class="sci">
+                  <li><a href="https://www.facebook.com/soumita.biswas.961/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                  <li><a href="https://www.instagram.com/_.soumita._/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                  <li><a href="https://www.linkedin.com/in/soumita-biswas-88b0941ab/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                  <li><a href="mailto: sb2253@gmail.com"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+              </ul>
               </div>
-              <!-- End footer widget -->
-            </div>
-            <!-- End Col -->
-          </div>
-          <!-- End Row -->
-        </div>
-        <!-- End Col -->
-
-        <div data-aos="flip-up" data-aos-duration="800" data-aos-offset="100">
-
-          <a href="https://www.facebook.com/soumita.biswas.961/" target="_blank"><i
-              class="fab fa-facebook-f social-logo logo1"></i></a>
-          <a href="https://www.instagram.com/_.soumita._/" target="_blank"><i
-              class="fab fa-instagram social-logo logo2"></i></a>
-          <a href="https://www.linkedin.com/in/soumita-biswas-88b0941ab/" target="_blank"><i
-              class="fab fa-linkedin social-logo logo3"></i></a>
-          <a href="mailto: sb2253@gmail.com" target="_blank"><i class="fas fa-envelope social-logo logo4"></i></a>
-        </div>
-        <!-- End Widget Row -->
-      </div>
-      <!-- End Contact Container -->
-      <div>
-        <p class="p1">“For it is in giving that we receive.”</p>
-        <p class="p2">Copyright ©
-          <script>
-            document.write(new Date().getFullYear())
+    </div>
+    <!-- End Contact Container -->
+    <div class="copyrightText">
+      <p class="p1">“For it is in giving that we receive.”</p>
+      <p class="p2">Copyright ©
+        <script>
+          document.write(new Date().getFullYear())
           </script>
           || Helping Hand. All rights reserved
         </p>
