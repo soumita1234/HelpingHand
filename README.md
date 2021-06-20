@@ -2,9 +2,6 @@
 
 <h4 aligh="center"> A payment integrated donation website through which one can donate, just by a click. </h4>
 
-![Capture](https://user-images.githubusercontent.com/58908901/122552769-595c8d00-d054-11eb-95a0-d75a09fa95ee.JPG)
-
-
 🔗[Launch HelpingHand](https://soumita1234.github.io/HelpingHand/) 🙌
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/soumita1234/HelpingHand)&nbsp;
