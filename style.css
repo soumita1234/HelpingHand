@@ -69,7 +69,63 @@ a.nav-link:hover{
   cursor: pointer;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
+#button {
+  display: inline-block;
+  background-color: #877ba1;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s,
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+
+#button:active {
+  background-color: #555;
+}
+
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+#rzp-button1 {
+  background-color: #e91e63;
+  color: #ffffff;
+  border: 2px solid transparent;
+  font-family: 'Poppins', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 4px;
+  line-height: 30px;
+}
 
 /* title section */
 #title {
@@ -165,7 +221,7 @@ a.nav-link:hover{
     margin-top: 40px;
     margin-left: -50px;
     font-size: 18px;
-   font-weight: 500;
+    font-weight: 500;
     letter-spacing: 0.5px;
     position: relative;
     padding: 10px 15px;
