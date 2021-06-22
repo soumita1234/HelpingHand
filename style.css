@@ -172,6 +172,12 @@ a.nav-link:hover{
     display: inline-block;
 }
 
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 .flip-card{
   background-color: transparent;
   width: 300px;
@@ -476,6 +482,26 @@ footer .container .sec.Aboutus
 
 .form-control{
   color: #fff !important
+}
+
+@media (max-width: 1080px){
+  
+  footer .container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  footer .container .sec{
+    width: 100%;
+  }
+
+  footer .container .sec.Aboutus{
+    width: 100%;
+  }
+
+  footer .container .sec h2{
+    padding-top: 15px;
+  }
 }
 
 /* Header Responsive */
@@ -872,16 +898,10 @@ p {
     margin-right: 7px;
   }
 
-@media (max-width: 595px) {
-  .footer-social-link {
-    margin: 40px 10px;
-    font-size: 1.40rem;
-  }
-  .p1, .p2 {
-    font-size: 14px;
+@media (max-width: 955px){
+  .cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
-
-
-  
-
