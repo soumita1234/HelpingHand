@@ -47,15 +47,20 @@ body {
   transition: 0.2s;
 }
 .nav-link {
+  border-radius: 30px ;
   font-size: 1.1rem;
   font-weight: 600;
   text-decoration: none;
   color: #fff;
   text-align: center;
 }
-a.nav-link:hover{
-  background: rgb(236, 213, 0);
-  border-radius: 2rem;
+.nav-link:hover{
+  background: #e91e63;
+  box-shadow: inset 5px 5px 10px #5d0c28,
+  inset -5px -5px 10px #ff309e;
+  border-radius: 30px !important;
+  color: white;
+  
 }
 .navbarlogo{
   width: 240px;
@@ -143,8 +148,8 @@ a.nav-link:hover{
   display: block;
   align-items: center;
   text-align:center;
-  font-size: 35px;
-  font-weight: bold;
+  font-size: 50px;
+  font-weight: bolder;
   letter-spacing: 0.5px;
 }
 .secf h2:hover{
@@ -184,12 +189,7 @@ a.nav-link:hover{
   height: 400px;
   perspective: 1000px;
   display: inline-block;
-  padding: 10px 10px 20px 20px;
-  
   margin:0 60px;
-  padding:20px 0px;
-  /* background-color: black; */
- 
 }
 .flip-card-inner{
   /* position: relative; */
@@ -201,7 +201,11 @@ a.nav-link:hover{
   transition: transform 0.6s;
   transform-style: preserve-3d;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  
+ 
+}
+
+.flip-card-inner p{
+  padding: 0.7rem;
 }
 
 .flip-card:hover .flip-card-inner {
@@ -308,15 +312,15 @@ p {
   color: #fff;
  padding: 6% 10% 8%;
   justify-content: center;
+  border: none !important;
 }
 #faq h2{
   text-align:center;
   color: #000;
+  font-size: 50px;
+  font-weight: bolder;
 }
-#faq h2:hover{
-  text-decoration: underline;
 
-}
 
 .faq-container{
   width:71.5vw;
@@ -353,7 +357,7 @@ p {
   inset -5px -5px 10px #ff309e;
   border-radius: 30px;
   padding: 30px 34px;
-    overflow: hidden;
+  overflow: hidden;
 }
 button{
   outline: none !important;
@@ -362,6 +366,11 @@ button{
 }
 .accordion-button::after{
   color: white !important;
+}
+.accordion-button{
+  border: none;
+  outline: none;
+  text-decoration: none;
 }
 
 
@@ -566,12 +575,13 @@ footer .container .sec.Aboutus
    -webkit-transition: -webkit-transform 1s;
   }
 
-  img:hover {
-  filter: none;
+  .title-image1:hover , .title-image:hover{
+    filter: none;
     -webkit-filter: grayscale(0);
     -webkit-transform: scale(1.01);
     -webkit-transform: rotate(5deg)translateZ(0);
   }
+  
 
 
 
@@ -591,7 +601,7 @@ footer .container .sec.Aboutus
     width: 250px;
     justify-content: center;
     margin: 0px auto;
-    font-size: 35px;
+    font-size: 45px;
     text-align: center;
     color: black;
   }
