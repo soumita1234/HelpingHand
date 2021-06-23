@@ -358,7 +358,7 @@
     <div class="contact">
       <h2>Contact Us</h2>
       <p>HAVE SOME QUESTIONS?</p>
-      <form class="form" id="myForm" enctype="multipart/form-data">
+      <form class="form" id="myForm" enctype="multipart/form-data" onsubmit="myFunction()">
 
         <div class="contbutton">
           <label for="First">
@@ -381,10 +381,11 @@
       <div class="avatar"></div>
     </div>
   </section>
-
-
-
-
+  <script>
+    function myFunction() {
+      alert("The form was submitted");
+    }
+    </script>
 
   <!--************* Footer ********** -->
   <!-- Footer -->
