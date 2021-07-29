@@ -13,7 +13,9 @@ body {
 }
 
 html {
-    scroll-behavior: smooth
+    scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 
@@ -120,6 +122,7 @@ html {
 
 .title-image {
     position: absolute;
+    width: 100%;
 }
 
 .container-fluid {
@@ -128,10 +131,6 @@ html {
 
 .download-button {
     margin: 5% 3% 5% 0;
-}
-
-.title-image {
-    width: 100%;
 }
 
 #rzp-button1 {
@@ -455,6 +454,8 @@ button {
 
 
 /* Header Responsive */
+
+
 @media screen and (max-width: 412px) {
     .big-heading {
         margin-top: 1.2rem;
@@ -1092,3 +1093,35 @@ p {
         padding-top: 15px;
     }
 }
+
+/*** Title images adjustmest according to screen size ***/
+
+@media screen and (max-width: 1377px) {
+    .title-image1 {
+        margin-top: 200px;
+        margin-left: 25%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .title-image {
+        margin-top: 50px;
+    }
+    .title-image1 {
+        margin-top: 50px;
+        margin-left: 280px;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .title-image1, .title-image {
+        position : static;
+        padding: 35px 0;
+        margin: 0px;
+        width: 100%;
+        height: 50%;
+
+    }
+
+}
+
