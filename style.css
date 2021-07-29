@@ -573,6 +573,9 @@ button {
     color: black;
 }
 
+@media only screen and (min-width: 800px)  {
+
+
 .avatar {
     width: 500px;
     height: 500px;
@@ -583,13 +586,13 @@ button {
     transition: all .3s linear;
     transform-origin: 50%;
 }
-
+}
 .contbutton {
     display: block;
     text-align: right;
 }
 
-.contbutton input {
+.contbutton input{
     padding-right: 1rem;
     margin-top: 0.5rem;
     outline: none;
@@ -599,6 +602,17 @@ button {
     text-decoration: none;
     background-color: rgb(238, 238, 238);
     border: 1px solid rgb(61, 61, 61);
+}
+.question{
+  padding-right: 1rem;
+  margin-top: 0.5rem;
+  outline: none;
+  margin-right: 3.3rem;
+  border-radius: 36px;
+  padding: 8px 30px;
+  text-decoration: none;
+  background-color: rgb(238, 238, 238);
+  border: 1px solid rgb(61, 61, 61);
 }
 
 .subbtn {
